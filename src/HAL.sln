@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HAL", "HAL\HAL.csproj", "{9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{D9F94B35-DE65-4EAA-8AE2-C209BBA2AF98}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C00E33DA-F115-40B4-99FD-AE55DC6AB640}"
 	ProjectSection(SolutionItems) = preProject
 		HAL.vsmdi = HAL.vsmdi
 		Local.testsettings = Local.testsettings
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HALUnitTests", "HALUnitTests\HALUnitTests.csproj", "{932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -25,10 +25,10 @@ Global
 		{9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9F94B35-DE65-4EAA-8AE2-C209BBA2AF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9F94B35-DE65-4EAA-8AE2-C209BBA2AF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9F94B35-DE65-4EAA-8AE2-C209BBA2AF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9F94B35-DE65-4EAA-8AE2-C209BBA2AF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
