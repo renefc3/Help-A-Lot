@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using HAL.Exceptions;
 
 namespace HAL.Collections
 {
@@ -10,7 +11,7 @@ namespace HAL.Collections
         public delegate void RemoveItemDelegate(T item);
 
         public delegate void InsertItemDelegate(int index, T item);
-        public delegate void RemoveAtItemDelegate(int index);
+        public delegate void RemoveAtItemDelegate(int index, T item);
 
         public event InsertItemDelegate BeforeInsertItem;
         public event InsertItemDelegate AfterInsertItem;
@@ -46,9 +47,13 @@ namespace HAL.Collections
 
         public void Add(T item)
         {
-            BeforeAddItem(item);
+            if (BeforeAddItem != null)
+                BeforeAddItem(item);
+
             _list.Add(item);
-            AfterAddItem(item);
+
+            if (AfterAddItem != null)
+                AfterAddItem(item);
         }
 
         public void Clear()
@@ -68,9 +73,13 @@ namespace HAL.Collections
 
         public bool Remove(T item)
         {
-            BeforeRemoveItem(item);
+            if (BeforeRemoveItem != null)
+                BeforeRemoveItem(item);
+
             bool ret = _list.Remove(item);
-            AfterRemoveItem(item);
+
+            if (AfterRemoveItem != null)
+                AfterRemoveItem(item);
             return ret;
         }
 
@@ -91,47 +100,38 @@ namespace HAL.Collections
 
         public void Insert(int index, T item)
         {
-            BeforeInsertItem(index, item);
+            if (BeforeInsertItem != null)
+                BeforeInsertItem(index, item);
+
             _list.Insert(index, item);
-            AfterInsertItem(index, item);
+
+            if (AfterInsertItem != null)
+                AfterInsertItem(index, item);
         }
 
         public void RemoveAt(int index)
         {
-            BeforeRemoveAtItem(index);
+
+            if (_list.Count <= index)
+                throw new HalException("Index out of range on the List!");
+
+            T item = _list[index];
+
+
+            if (BeforeRemoveAtItem != null)
+                BeforeRemoveAtItem(index, item);
+
             _list.RemoveAt(index);
-            AfterRemoveAtItem(index);
+
+            if (AfterRemoveAtItem != null)
+                AfterRemoveAtItem(index, item);
         }
+
 
         public T this[int index]
         {
             get { return _list[index]; }
             set { _list[index] = value; }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

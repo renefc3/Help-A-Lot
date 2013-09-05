@@ -2,8 +2,9 @@
 
 namespace HAL
 {
-    public class CsvFile
-    {
 
-    }
+    //public class CsvFile
+    //{
+
+    //}
 }

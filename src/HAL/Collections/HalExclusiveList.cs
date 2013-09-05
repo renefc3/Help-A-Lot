@@ -1,5 +1,7 @@
-using System;
 using System.Linq;
+using System.Reflection;
+using HAL.Exceptions;
+
 namespace HAL.Collections
 {
     public class HalExclusiveList<T> : HalList<T>
@@ -11,7 +13,7 @@ namespace HAL.Collections
         }
 
         void HalExclusiveList_BeforeInsertItem(int index, T item)
-        {     
+        {
             if (this.Contains(item))
             {
                 throw new HalDuplicityException("List already have the item in the list");
@@ -25,7 +27,7 @@ namespace HAL.Collections
             {
                 throw new HalDuplicityException("List already have the item in the list");
             }
+           
         }
     }
-
 }

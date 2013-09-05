@@ -1,0 +1,179 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1/f:UnitTest1.cs" caret="310" fromTop="0" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Collections/f:HalExclusiveList.cs" caret="1009" fromTop="0" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:CsvFile.cs" caret="0" fromTop="0" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:TxtFile.cs" caret="140" fromTop="12" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Collections/f:HalList.cs" caret="408" fromTop="13" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StreamExtension.cs" caret="0" fromTop="0" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Attributes/f:XmlAtribute.cs" caret="183" fromTop="9" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:HalDuplicityException.cs" caret="299" fromTop="16" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:DataTableExtension.cs" caret="515" fromTop="0" />
+      <File id="932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1/d:Extensions/f:DataTableExtensionTest.cs" caret="880" fromTop="21" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="1711" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:TxtFile.cs" caret="336" fromTop="22" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:TxtFile.cs" caret="403" fromTop="18" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:TxtFile.cs" caret="129" fromTop="9" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="5319" fromTop="14" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:DataTableExtension.cs" caret="1790" fromTop="11" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Attributes/f:XmlAtribute.cs" caret="257" fromTop="11" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Attributes/f:XmlAtribute.cs" caret="233" fromTop="12" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="1289" fromTop="5" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="1153" fromTop="0" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="2040" fromTop="11" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="2271" fromTop="17" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="4259" fromTop="20" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:HalDuplicityException.cs" caret="377" fromTop="22" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/f:HalDuplicityException.cs" caret="299" fromTop="16" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="4190" fromTop="17" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="4358" fromTop="26" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="4604" fromTop="29" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="3186" fromTop="9" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="2901" fromTop="7" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="4686" fromTop="18" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="4968" fromTop="29" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="239" fromTop="8" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="644" fromTop="18" />
+      <File id="932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1/d:Extensions/f:DataTableExtensionTest.cs" caret="631" fromTop="11" />
+      <File id="932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1/d:Extensions/f:DataTableExtensionTest.cs" caret="1182" fromTop="31" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:DataTableExtension.cs" caret="1125" fromTop="11" />
+      <File id="932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1/d:Extensions/f:DataTableExtensionTest.cs" caret="880" fromTop="21" />
+      <File id="932C06A9-CA13-48E3-8FBE-B2BA6DAB2FE1/d:Extensions/f:DataTableExtensionTest.cs" caret="1178" fromTop="29" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="2699" fromTop="26" />
+      <File id="9F1EA002-2A6B-4AEA-8BD1-9107D5FA0C99/d:Extension/f:StringExtension.cs" caret="1711" fromTop="25" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="T`0" priority="31" />
+      <Item value="bool" priority="63" />
+      <Item value="expression" priority="32" />
+      <Item value="Func" priority="30" />
+      <Item value="new" priority="191" />
+      <Item value="HalCustomExclusiveList" priority="28" />
+      <Item value="public" priority="282" />
+      <Item value="class" priority="124" />
+      <Item value="prop" priority="31" />
+      <Item value="int" priority="126" />
+      <Item value="string" priority="286" />
+      <Item value="aaaa`0" priority="26" />
+      <Item value="x" priority="191" />
+      <Item value="object" priority="95" />
+      <Item value="static" priority="190" />
+      <Item value="IEnumerable" priority="95" />
+      <Item value="ICollection" priority="31" />
+      <Item value="lista" priority="95" />
+      <Item value="IQueryable" priority="31" />
+      <Item value="lambdaExpression" priority="65" />
+      <Item value="return" priority="287" />
+      <Item value="Teste" priority="28" />
+      <Item value="t" priority="31" />
+      <Item value="StringSplitOptions`0" priority="31" />
+      <Item value="TimeoutException`0" priority="31" />
+      <Item value="Teste`0" priority="94" />
+      <Item value="func" priority="64" />
+      <Item value="IList" priority="31" />
+      <Item value="List&lt;Teste&gt;" priority="28" />
+      <Item value="a" priority="95" />
+      <Item value="null" priority="31" />
+      <Item value="interface" priority="30" />
+      <Item value="abstract" priority="62" />
+      <Item value="IRow`0" priority="63" />
+      <Item value="IRowTextFile`0" priority="53" />
+      <Item value="HAL" priority="31" />
+      <Item value="SerializableAttribute`0" priority="31" />
+      <Item value="XmlDocument" priority="28" />
+      <Item value="xm" priority="31" />
+      <Item value="XmlAttribute`0" priority="31" />
+      <Item value="this" priority="63" />
+      <Item value="if" priority="127" />
+      <Item value="value" priority="445" />
+      <Item value="struct" priority="30" />
+      <Item value="starts" priority="94" />
+      <Item value="ends" priority="94" />
+      <Item value="thr" priority="31" />
+      <Item value="HalRangeException" priority="26" />
+      <Item value="private" priority="32" />
+      <Item value="Range`0" priority="31" />
+      <Item value="range" priority="192" />
+      <Item value="params" priority="31" />
+      <Item value="foreach" priority="31" />
+      <Item value="_starts" priority="31" />
+      <Item value="_ends" priority="31" />
+      <Item value="FileInfo" priority="28" />
+      <Item value="fi" priority="63" />
+      <Item value="var" priority="31" />
+      <Item value="dtWithData" priority="26" />
+      <Item value="ExpectedException" priority="31" />
+      <Item value="typeof" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HAL.Collections.aaaa">
+      <Item value="rrr" priority="26" />
+      <Item value="asdsd" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Where`1" priority="27" />
+      <Item value="Count`1" priority="26" />
+      <Item value="Distinct`1" priority="26" />
+      <Item value="Any`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Where`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Distinct`1" priority="109" />
+      <Item value="Select`2" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HAL.Extension.Teste">
+      <Item value="nome" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="AppendChild`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="26" />
+      <Item value="Length" priority="108" />
+      <Item value="ToUpper`0" priority="80" />
+      <Item value="Substring`0" priority="134" />
+      <Item value="ToLower`0" priority="45" />
+      <Item value="IndexOf`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HAL.Extension.Range">
+      <Item value="Starts" priority="107" />
+      <Item value="Lenght" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="LastAccessTime" priority="26" />
+      <Item value="Length" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="CleanColumns`0" priority="22" />
+      <Item value="Columns" priority="27" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

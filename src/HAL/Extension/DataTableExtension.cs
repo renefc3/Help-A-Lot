@@ -6,11 +6,11 @@ using System.Text;
 
 namespace HAL.Extension
 {
-    public  static class DataTableExtension
+    public static class DataTableExtension
     {
         public static DataTable CopyOnlySchema(this DataTable dt)
         {
-           return  dt.Clone();
+            return dt.Clone();
         }
 
 
@@ -27,7 +27,7 @@ namespace HAL.Extension
                 dt.Columns.Remove(cName);
             return dt;
         }
-        
+
         public static DataTable SetPrimaryKey(this DataTable dt, params string[] primaryKeys)
         {
             List<DataColumn> colunas = new List<DataColumn>();
@@ -37,25 +37,38 @@ namespace HAL.Extension
             dt.PrimaryKey = colunas.ToArray();
             return dt;
         }
+
         public static DataTable SetPrimaryKey(this DataTable dt, params int[] primaryKeys)
         {
             List<DataColumn> colunas = new List<DataColumn>();
             foreach (int key in primaryKeys)
                 colunas.Add(dt.Columns[key]);
-            
+
             dt.PrimaryKey = colunas.ToArray();
             return dt;
         }
 
-        
+
         public static DataTable CleanColumns(this DataTable dt, params int[] index)
         {
-            return null;
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                foreach (int i1 in index)
+                {
+                    dt.Rows[i][i1] = "";
+                }
+            }
+            return dt;
         }
 
         public static DataTable CleanColumns(this DataTable dt, params string[] columnsNames)
         {
             return null;
         }
+
+
     }
+
+
+
 }
