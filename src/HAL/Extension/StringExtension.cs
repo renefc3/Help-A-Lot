@@ -153,74 +153,44 @@ namespace HAL.Extension
     }
 
 
-    //public struct Range
-    //{
-    //    private int _starts;
-    //    private int _ends;
+    
 
-    //    public Range(int starts, int ends)
-    //    {
-    //        if (starts == ends || starts > ends)
-    //            throw new HalRangeException(string.Format("Range Invalid with {0}-{1}", starts, ends));
+    public static class CollectionExtension
+    {
 
-    //        _starts = starts;
-    //        _ends = ends;
-    //    }
+        public static IList<T> Clone<T>(this IList<T> lista) where T : ICloneable
+        {
+            IList<T> listaClone = new List<T>();
 
-    //    public int Starts
-    //    {
-    //        get { return _starts; }
-    //        private set { _starts = value; }
-    //    }
+            foreach (T valor in lista)
+            {
+                listaClone.Add((T)valor.Clone());
+            }
 
-    //    public int Ends
-    //    {
-    //        get { return _ends; }
-    //        private set { _ends = value; }
-    //    }
-
-    //    public int Lenght
-    //    {
-    //        get { return _starts - _ends; }
-    //    }
-    //}
-
-    //public static class CollectionExtension
-    //{
-
-    //    public static IList<T> Clone<T>(this IList<T> lista) where T : ICloneable
-    //    {
-    //        IList<T> listaClone = new List<T>();
-
-    //        foreach (T valor in lista)
-    //        {
-    //            listaClone.Add((T)valor.Clone());
-    //        }
-
-    //        return listaClone;
-    //    }
+            return listaClone;
+        }
 
 
-    //    public static IEnumerable<T> Distinct<T>(this IEnumerable<T> lista, Expression<Func<T, object>> lambdaExpression)
-    //    {
-        
+        public static IEnumerable<T> Distinct<T>(this IEnumerable<T> lista, Expression<Func<T, object>> lambdaExpression)
+        {
 
 
-    //        return null;
 
-    //    }
+            return null;
 
-    //    public static bool Exists<T>(this IQueryable<T> lista, Expression<Func<T, bool>> lambdaExpression)
-    //    {
-    //        return lista.Any(lambdaExpression);
-    //        //Teste t = new Teste();
-    //        //IEnumerable<Teste> a = t.FazerIsso<Teste>(x => x.nome);
+        }
 
-    //        //a.Distinct().Distinct(x => x.nome);
+        public static bool Exists<T>(this IQueryable<T> lista, Expression<Func<T, bool>> lambdaExpression)
+        {
+            return lista.Any(lambdaExpression);
+            //Teste t = new Teste();
+            //IEnumerable<Teste> a = t.FazerIsso<Teste>(x => x.nome);
 
-    //        //return lista.Count(lambdaExpression) == 0;
-    //    }
+            //a.Distinct().Distinct(x => x.nome);
 
-    //}
+            //return lista.Count(lambdaExpression) == 0;
+        }
+
+    }
 
 }

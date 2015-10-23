@@ -7,6 +7,14 @@ namespace HAL.Collections
 {
     public class HalList<T> : IList<T>
     {
+        #region [ Fields ] 
+
+        #endregion
+
+        #region [ Properties ] 
+
+        #endregion
+
         public delegate void AddItemDelegate(T item);
         public delegate void RemoveItemDelegate(T item);
 

@@ -52,7 +52,9 @@
     <Compile Include="Collections\HalExclusiveList.cs" />
     <Compile Include="Collections\HalList.cs" />
     <Compile Include="Exceptions\HalDuplicityException.cs" />
+    <Compile Include="Period.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Range.cs" />
     <Compile Include="TxtFile.cs" />
   </ItemGroup>
   <ItemGroup>

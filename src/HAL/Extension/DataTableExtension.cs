@@ -12,8 +12,7 @@ namespace HAL.Extension
         {
             return dt.Clone();
         }
-
-
+        
         public static DataTable RemoveColumns(this DataTable dt, params int[] index)
         {
             foreach (var i in index)
@@ -47,8 +46,7 @@ namespace HAL.Extension
             dt.PrimaryKey = colunas.ToArray();
             return dt;
         }
-
-
+        
         public static DataTable CleanColumns(this DataTable dt, params int[] index)
         {
             for (int i = 0; i < dt.Rows.Count; i++)
