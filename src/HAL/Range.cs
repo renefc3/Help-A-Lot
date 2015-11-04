@@ -7,6 +7,35 @@ using System.Text;
 namespace HAL
 {
 
+    public struct Range<T> where T : IComparable<T>
+    {
+        private T _starts;
+        private T _ends;
+
+
+        public Range(T starts, T ends)
+        {
+            //if (starts == ends || starts.CompareTo(ends) == 0)
+            //    throw new HalRangeException(string.Format("Range Invalid with {0}-{1}", starts, ends));
+
+            _starts = starts;
+            _ends = ends;
+        }
+
+
+        public T Starts
+        {
+            get { return _starts; }
+            private set { _starts = value; }
+        }
+
+        public T Ends
+        {
+            get { return _ends; }
+            private set { _ends = value; }
+        }
+
+    }
 
     public struct Range
     {

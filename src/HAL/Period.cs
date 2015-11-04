@@ -6,7 +6,6 @@ using System.Text;
 
 namespace HAL
 {
-
     public struct Period
     {
         private DateTime? _starts;

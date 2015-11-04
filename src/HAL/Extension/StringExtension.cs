@@ -149,13 +149,40 @@ namespace HAL.Extension
         //Fazer metodo Enum.TryParse ou pensar em algo para resolver problema assim, usando int ou string
 
 
-     
+
     }
 
+    public static class DateTimeExtension
+    {
+        /// <summary>
+        /// Get the Start time of the Day
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
+        public static DateTime StartOfTheDay(this DateTime date)
+        {
+            return date.Date;
+        }
 
+
+        /// <summary>
+        /// Get The Last hour of the Day
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
+        public static DateTime EndOfTheDay(this DateTime date)
+        {
+            return date.Date.AddDays(1).AddMilliseconds(-1);
+        }
+
+
+
+
+
+    }
     
 
-    public static class CollectionExtension
+        public static class CollectionExtension
     {
 
         public static IList<T> Clone<T>(this IList<T> lista) where T : ICloneable

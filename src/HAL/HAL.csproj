@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\HalCustomValidateList.cs" />
-    <Compile Include="CsvFile.cs" />
     <Compile Include="Exceptions\HalException.cs" />
     <Compile Include="Exceptions\HalInvalidValueException.cs" />
     <Compile Include="Exceptions\HalRangeException.cs" />
@@ -55,7 +54,6 @@
     <Compile Include="Period.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Range.cs" />
-    <Compile Include="TxtFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Attributes\" />
